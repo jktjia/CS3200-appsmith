@@ -28,7 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "UserGroves_accessible_groves",
               "name": "accessible_groves",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -38,7 +37,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "UserGroves_grove_logs",
               "name": "grove_logs",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -48,7 +46,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "UserGroves_log_comments",
               "name": "log_comments",
               "confirmBeforeExecute": false,
               "pluginType": "API",
