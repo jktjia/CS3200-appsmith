@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 8,
-    "widgetName": "Text2",
+    "widgetName": "Text4",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -29,18 +29,18 @@
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{currentItem.id}}",
-    "key": "bjbmufhjzu",
+    "key": "vlzoie0flg",
     "isDeprecated": false,
     "rightColumn": 24,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
-    "widgetId": "mgfimketqe",
+    "widgetId": "1zgh8evw9t",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "cupdicqsho",
+    "parentId": "4j3ihn64mb",
     "tags": [
         "Suggested",
         "Content"
