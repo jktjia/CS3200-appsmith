@@ -1,0 +1,77 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 47,
+    "widgetName": "add_menu_button",
+    "configureMenuItems": {
+        "label": "Configure menu items",
+        "id": "config",
+        "config": {
+            "id": "config",
+            "label": "Menu Item",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "displayName": "Menu button",
+    "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "topRow": 2,
+    "bottomRow": 6,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 25,
+    "animateLoading": true,
+    "parentColumnSpace": 12.34375,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem2.onClick"}
+    ],
+    "leftColumn": 47,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"},
+        {"key": "isVisible"}
+    ],
+    "isDisabled": false,
+    "sourceData": [],
+    "key": "gkcylzpc1d",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "menuVariant": "PRIMARY",
+    "widgetId": "oeonhcxgjz",
+    "menuItems": {
+        "menuItem1": {
+            "onClick": "{{showModal('credit_card_modal2');}}",
+            "widgetId": "",
+            "index": 0,
+            "label": "Credit Card",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "onClick": "{{showModal('Modal1');}}",
+            "widgetId": "",
+            "index": 1,
+            "label": "User",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": "{{appsmith.store.enterprise_id != null}}",
+    "label": "Add New",
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 43,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 9,
+    "menuItemsSource": "STATIC",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "placement": "CENTER"
+}
