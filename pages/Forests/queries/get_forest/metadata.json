@@ -37,7 +37,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -53,7 +53,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T23:09:42Z"
+    "createdAt": "2023-12-05T23:37:56Z"
   },
   "id": "Forests_get_forest",
   "deleted": false,

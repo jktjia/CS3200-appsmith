@@ -16,7 +16,8 @@
         {"key": "primaryKeys"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "listData"}
     ],
     "leftColumn": 25,
     "enhancements": true,
@@ -26,7 +27,7 @@
         "widgetName": "Canvas3",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 400,
+        "bottomRow": 530,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -85,31 +86,16 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List2",
-    "listData": [
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Blue",
-            "id": "001"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Green",
-            "id": "002"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Red",
-            "id": "003"
-        }
-    ],
+    "listData": "{{get_forest.data}}",
     "displayName": "List",
-    "bottomRow": 41,
+    "bottomRow": 54,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 49,
     "mainContainerId": "a6upski1jm",
     "primaryKeys": "{{List2.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
     "parentColumnSpace": 12.34375,
+    "dynamicTriggerPathList": [],
     "gridType": "vertical",
     "key": "dd2s3172c9",
     "backgroundColor": "transparent",
