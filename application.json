@@ -1,11 +1,23 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Forests",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "UserInfo",
+      "isDefault": false
+    },
+    {
+      "id": "UserCreate",
+      "isDefault": false
+    },
+    {
+      "id": "Enterprise",
+      "isDefault": false
+    },
+    {
+      "id": "UserGroves",
       "isDefault": false
     }
   ],
@@ -18,7 +30,7 @@
     }
   },
   "color": "#FFEBFB",
-  "icon": "football",
+  "icon": "calender",
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

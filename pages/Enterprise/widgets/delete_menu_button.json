@@ -1,0 +1,66 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 9,
+    "widgetName": "delete_menu_button",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "displayName": "Menu button",
+    "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "topRow": 6,
+    "bottomRow": 10,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 63,
+    "animateLoading": true,
+    "parentColumnSpace": 12.34375,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItem1.onClick"}
+    ],
+    "leftColumn": 47,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"},
+        {"key": "isVisible"}
+    ],
+    "isDisabled": false,
+    "key": "3b6k9whlir",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "menuVariant": "PRIMARY",
+    "widgetId": "00ttaqrt2l",
+    "menuItems": {
+        "menuItem1": {
+            "onClick": "{{delete_credit_card.run()}}",
+            "widgetId": "",
+            "index": 0,
+            "label": "Credit Card",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "onClick": "{{delete_user.run()}}",
+            "widgetId": "",
+            "index": 1,
+            "label": "User",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": "{{appsmith.store.enterprise_id != null}}",
+    "label": "Delete Selected",
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 5,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 47,
+    "menuItemsSource": "STATIC",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "placement": "CENTER"
+}
