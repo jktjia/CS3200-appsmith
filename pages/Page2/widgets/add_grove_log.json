@@ -1,0 +1,78 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 5,
+    "widgetName": "add_grove_log",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButton1.isDisabled"},
+        {"key": "groupButtons.groupButton2.isDisabled"}
+    ],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 2,
+    "bottomRow": 6,
+    "parentRowSpace": 10,
+    "type": "BUTTON_GROUP_WIDGET",
+    "groupButtons": {
+        "groupButton1": {
+            "buttonType": "SIMPLE",
+            "iconName": "add",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "New Grove",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": ""
+        },
+        "groupButton2": {
+            "buttonType": "SIMPLE",
+            "iconName": "add-to-artifact",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "Add Log",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": "{{!(grove_list.selectedItem.access == 'creator' || grove_list.selectedItem.access == 'write')}}"
+        }
+    },
+    "hideCard": false,
+    "mobileRightColumn": 25,
+    "animateLoading": true,
+    "parentColumnSpace": 12.34375,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "groupButtons.groupButton2.isDisabled"}
+    ],
+    "key": "obw1oyo0mi",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 25,
+    "widgetId": "m7kbf7icm7",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 1,
+    "responsiveBehavior": "fill",
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 1,
+    "buttonVariant": "PRIMARY"
+}
