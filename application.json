@@ -19,6 +19,14 @@
     {
       "id": "UserGroves",
       "isDefault": false
+    },
+    {
+      "id": "Grove Home",
+      "isDefault": false
+    },
+    {
+      "id": "Grove",
+      "isDefault": false
     }
   ],
   "viewMode": false,
