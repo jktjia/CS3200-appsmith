@@ -28,6 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Enterprise_credit_cards",
               "name": "credit_cards",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -37,6 +38,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Enterprise_enterprise_users",
               "name": "enterprise_users",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -48,6 +50,7 @@
           ],
           [
             {
+              "id": "Enterprise_enterprise",
               "name": "enterprise",
               "confirmBeforeExecute": false,
               "pluginType": "API",
