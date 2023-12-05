@@ -19,6 +19,10 @@
     {
       "id": "UserGroves",
       "isDefault": false
+    },
+    {
+      "id": "Log",
+      "isDefault": false
     }
   ],
   "viewMode": false,
