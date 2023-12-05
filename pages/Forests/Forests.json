@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1000,
+          "bottomRow": 950,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -35,9 +35,7 @@
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Forests_get_forest",
               "name": "get_forest",
