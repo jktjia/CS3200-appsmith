@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 0,
-    "widgetName": "credit_card_modal3",
+    "widgetName": "credit_card_modal",
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",
@@ -11,7 +11,7 @@
         "notification"
     ],
     "topRow": 1,
-    "bottomRow": 62,
+    "bottomRow": 621,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Enterprise",
-    "slug": "enterprise",
+    "name": "EnterpriseStats",
+    "slug": "enterprisestats",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 770,
+          "bottomRow": 650,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -28,34 +28,54 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Enterprise_credit_cards",
-              "name": "credit_cards",
+              "id": "EnterpriseStats_all_forests",
+              "name": "all_forests",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "EnterpriseStats_enterprise_forests",
+              "name": "enterprise_forests",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.enterprise_id"
+                "appsmith.store.user_id"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Enterprise_enterprise_users",
-              "name": "enterprise_users",
+              "id": "EnterpriseStats_top_5_logs",
+              "name": "top_5_logs",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.enterprise_id"
+                "forests.selectedItem.id"
               ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "Enterprise_enterprise",
-              "name": "enterprise",
+              "id": "EnterpriseStats_avg_rating",
+              "name": "avg_rating",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.enterprise_id"
+                "forests.selectedItem.id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "EnterpriseStats_most_liked",
+              "name": "most_liked",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "forests.selectedItem.id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -63,7 +83,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Enterprise",
+        "id": "EnterpriseStats",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -74,5 +94,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656fa9688b15bd2e681386f7_656fab26bdeb701b268ec727"
+  "gitSyncId": "656fd3afd1fb99196c0117d2_656fdef41ee0641f6d551714"
 }

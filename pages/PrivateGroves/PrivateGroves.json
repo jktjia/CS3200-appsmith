@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Grove Home",
-    "slug": "grove-home",
+    "name": "PrivateGroves",
+    "slug": "privategroves",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 1080,
           "containerStyle": "none",
-          "snapRows": 59,
+          "snapRows": 57,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 610,
+          "minHeight": 590,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,12 +28,32 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Grove Home_user_feed",
-              "name": "user_feed",
+              "id": "PrivateGroves_accessible_groves",
+              "name": "accessible_groves",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.user_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "PrivateGroves_grove_logs",
+              "name": "grove_logs",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "grove_list.selectedItem.id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "PrivateGroves_log_comments",
+              "name": "log_comments",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "log_list.selectedItem.id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -41,7 +61,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Grove Home",
+        "id": "PrivateGroves",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -49,8 +69,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "656fac9dfc575416aa617750_656fada9fc575416aa617762"
+  "gitSyncId": "656fd3afd1fb99196c0117d2_656fd4c1d1fb99196c01186f"
 }

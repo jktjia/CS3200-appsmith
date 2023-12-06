@@ -27,6 +27,14 @@
     {
       "id": "Log",
       "isDefault": false
+    },
+    {
+      "id": "PrivateGroves",
+      "isDefault": false
+    },
+    {
+      "id": "EnterpriseStats",
+      "isDefault": false
     }
   ],
   "viewMode": false,
