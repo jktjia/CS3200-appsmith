@@ -28,6 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "EnterpriseStats_enterprise_forests",
+              "name": "enterprise_forests",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user_id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "EnterpriseStats_all_forests",
               "name": "all_forests",
               "confirmBeforeExecute": false,
@@ -37,16 +49,6 @@
             }
           ],
           [
-            {
-              "id": "EnterpriseStats_enterprise_forests",
-              "name": "enterprise_forests",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.user_id"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "EnterpriseStats_top_5_logs",
               "name": "top_5_logs",
