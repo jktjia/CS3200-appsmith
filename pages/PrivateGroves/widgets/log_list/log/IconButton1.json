@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton1",
-    "onClick": "{{showModal('Modal1');}}",
+    "onClick": "{{showModal('create_comment_modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Icon button",

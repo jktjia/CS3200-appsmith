@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/u/groves"
+        "url": "web:4000/g/groves"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "PrivateGroves",
+    "pageId": "NewGrove",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{create_new_grove_form.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -43,18 +43,24 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "create_new_grove_form.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T02:11:33Z"
+    "createdAt": "2023-12-06T18:22:11Z"
   },
-  "id": "PrivateGroves_create_grove",
+  "id": "NewGrove_create_grove",
   "deleted": false,
-  "gitSyncId": "656fd3afd1fb99196c0117d2_656fd85585747e47f7d62e67"
+  "gitSyncId": "65709d00c571d64d12189ab7_6570bbd399767c01529fe90b"
 }

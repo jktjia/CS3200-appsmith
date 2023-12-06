@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "confirm_new_comment",
+    "onClick": "{{create_comment.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -10,12 +11,13 @@
         "click",
         "submit"
     ],
-    "topRow": 18,
-    "bottomRow": 22,
+    "topRow": 25,
+    "bottomRow": 29,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
     "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 47,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
