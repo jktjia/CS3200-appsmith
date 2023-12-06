@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -54,7 +54,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T01:51:43Z"
+    "createdAt": "2023-12-06T13:56:47Z"
   },
   "id": "Grove Home_get_owned_groves",
   "deleted": false,
