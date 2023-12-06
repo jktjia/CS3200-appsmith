@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "PrivateGroves",
-    "slug": "privategroves",
+    "name": "GroveSettings",
+    "slug": "grovesettings",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1110,
+          "bottomRow": 630,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -28,34 +28,34 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "PrivateGroves_accessible_groves",
-              "name": "accessible_groves",
+              "id": "GroveSettings_grove_users",
+              "name": "grove_users",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.user_id"
+                "appsmith.store.grove_id"
               ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "PrivateGroves_grove_logs",
-              "name": "grove_logs",
+              "id": "GroveSettings_all_forests",
+              "name": "all_forests",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "grove_list.selectedItem.id"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "PrivateGroves_log_comments",
-              "name": "log_comments",
+              "id": "GroveSettings_grove_settings",
+              "name": "grove_settings",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "log_list.selectedItem.id"
+                "appsmith.store.grove_id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -63,7 +63,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "PrivateGroves",
+        "id": "GroveSettings",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -74,5 +74,5 @@
     "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "656fd3afd1fb99196c0117d2_656fd4c1d1fb99196c01186f"
+  "gitSyncId": "65709d00c571d64d12189ab7_65709e61c571d64d12189af5"
 }

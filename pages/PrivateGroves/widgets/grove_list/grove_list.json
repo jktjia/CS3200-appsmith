@@ -105,7 +105,7 @@
     "rightColumn": 25,
     "widgetId": "h5f1jotqj1",
     "minWidth": 450,
-    "onItemClick": "{{grove_logs.run()}}",
+    "onItemClick": "{{grove_logs.run();\nstoreValue('grove_id', grove_list.selectedItem.id);}}",
     "parentId": "0",
     "renderMode": "CANVAS",
     "mobileTopRow": 1,

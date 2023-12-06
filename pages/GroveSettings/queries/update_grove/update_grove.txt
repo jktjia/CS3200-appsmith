@@ -1,0 +1,8 @@
+{{
+{
+	'name':rename_grove_input.text,
+	'description':description_editor.text,
+	'is_private':grove_settings.data[0].is_private,
+	'category':change_forest_select.selectedOptionValue
+}
+}}

@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 68,
+    "topRow": 71,
     "pageSize": 3,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "gn8upmv80g",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 108,
+    "originalBottomRow": 111,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -89,7 +89,7 @@
     "widgetName": "comments",
     "listData": "{{log_comments.data}}",
     "displayName": "List",
-    "bottomRow": 108,
+    "bottomRow": 111,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 36,
@@ -108,7 +108,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 65,
     "responsiveBehavior": "fill",
-    "originalTopRow": 68,
+    "originalTopRow": 71,
     "mobileLeftColumn": 12,
     "selectedItemView": "{{{}}}"
 }
