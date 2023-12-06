@@ -29,19 +29,23 @@
       "isDefault": false
     },
     {
-      "id": "PrivateGroves",
+      "id": "Private Groves",
       "isDefault": false
     },
     {
-      "id": "EnterpriseStats",
+      "id": "Enterprise Stats",
       "isDefault": false
     },
     {
-      "id": "NewGrove",
+      "id": "New Grove",
       "isDefault": false
     },
     {
-      "id": "GroveSettings",
+      "id": "Grove Settings",
+      "isDefault": false
+    },
+    {
+      "id": "New Log",
       "isDefault": false
     }
   ],
