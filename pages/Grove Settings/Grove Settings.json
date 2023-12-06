@@ -28,16 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Grove Settings_all_forests",
-              "name": "all_forests",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Grove Settings_grove_users",
               "name": "grove_users",
               "confirmBeforeExecute": false,
@@ -45,6 +35,16 @@
               "jsonPathKeys": [
                 "appsmith.store.grove_id"
               ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Grove Settings_all_forests",
+              "name": "all_forests",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -71,7 +71,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "65709d00c571d64d12189ab7_65709e61c571d64d12189af5"
