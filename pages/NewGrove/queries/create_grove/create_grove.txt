@@ -1,1 +1,9 @@
-{{create_new_grove_form.formData}}
+{{
+{
+	'name':name_input.text,
+	'description':description_input.text,
+	'is_private':private_switch.isSwitchedOn,
+	'user_id':appsmith.store.user_id,
+	'category_id':forest_select.selectedOptionValue
+}
+}}
