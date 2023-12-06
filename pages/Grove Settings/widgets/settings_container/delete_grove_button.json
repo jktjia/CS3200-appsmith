@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 62,
     "widgetName": "delete_grove_button",
-    "onClick": "{{delete_grove.run().then(() => {\n  navigateTo('PrivateGroves', {}, 'SAME_WINDOW');\n});}}",
+    "onClick": "{{delete_grove.run().then(() => {\n  navigateTo('Private Groves', {}, 'SAME_WINDOW');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

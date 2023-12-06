@@ -20,7 +20,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButtonf34qyyl69s": {
-            "onClick": "{{navigateTo('GroveSettings', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Grove Settings', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "settings",
@@ -34,7 +34,7 @@
             "placement": "CENTER"
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('NewGrove', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('New Grove', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "add",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
