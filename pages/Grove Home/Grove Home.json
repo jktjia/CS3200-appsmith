@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Grove Home_user_feed",
-              "name": "user_feed",
+              "id": "Grove Home_get_owned_groves",
+              "name": "get_owned_groves",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

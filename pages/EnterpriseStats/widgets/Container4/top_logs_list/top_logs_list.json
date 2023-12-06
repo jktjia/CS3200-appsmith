@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "qvz6f8h1bq",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 33,
+    "originalBottomRow": 51,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -88,6 +88,7 @@
     "triggeredItemView": "{{{}}}",
     "widgetName": "top_logs_list",
     "listData": "{{top_5_logs.data}}",
+    "dynamicPropertyPathList": [],
     "displayName": "List",
     "bottomRow": 51,
     "parentRowSpace": 10,

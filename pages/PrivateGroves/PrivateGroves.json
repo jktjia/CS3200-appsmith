@@ -36,7 +36,9 @@
                 "appsmith.store.user_id"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "PrivateGroves_grove_logs",
               "name": "grove_logs",
