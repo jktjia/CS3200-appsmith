@@ -17,7 +17,7 @@
         {"key": "borderRadius"}
     ],
     "leftColumn": 0,
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "https://www.creativefabrica.com/wp-content/uploads/2023/03/29/Forest-background-Forest-Landscape-Graphics-65678932-1.jpg\n",
     "flexVerticalAlignment": "start",
     "key": "5iah1335ix",
     "image": "{{currentItem.img}}",
