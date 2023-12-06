@@ -1,0 +1,65 @@
+{
+    "mobileBottomRow": 11,
+    "widgetName": "Text2",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "displayName": "Text",
+    "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+    "searchTags": [
+        "typography",
+        "paragraph",
+        "label"
+    ],
+    "topRow": 13,
+<<<<<<< HEAD:pages/UserInfo/widgets/user_info_container/Text2.json
+    "bottomRow": 20,
+=======
+    "bottomRow": 26,
+>>>>>>> master:pages/User Info/widgets/user_info_container/Text2.json
+    "parentRowSpace": 10,
+    "type": "TEXT_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 53,
+    "animateLoading": true,
+    "overflow": "NONE",
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 6.630859375,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "truncateButtonColor"},
+        {"key": "fontFamily"},
+        {"key": "borderRadius"},
+        {"key": "text"},
+        {"key": "isVisible"}
+    ],
+    "shouldTruncate": false,
+    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "text": "Hello {{user_info.data[0].username}}",
+    "key": "d2fv6zgzdo",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "textAlign": "LEFT",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "widgetId": "93p5ddhd8z",
+    "minWidth": 450,
+    "isVisible": "{{(user_info.data[0].first_name == null) || (user_info.data[0].last_name == null)}}",
+    "fontStyle": "BOLD",
+    "textColor": "#231F20",
+    "version": 1,
+    "parentId": "dwop30zs0n",
+    "tags": [
+        "Suggested",
+        "Content"
+    ],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 7,
+    "responsiveBehavior": "fill",
+    "originalTopRow": 13,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 37,
+    "maxDynamicHeight": 9000,
+    "originalBottomRow": 26,
+    "fontSize": "3rem",
+    "minDynamicHeight": 4
+}

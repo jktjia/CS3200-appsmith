@@ -86,7 +86,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": "{{user_feed.data}}",
+    "listData": "{{get_owned_groves.data}}",
     "displayName": "List",
     "bottomRow": 41,
     "parentRowSpace": 10,
