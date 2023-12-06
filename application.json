@@ -5,11 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "UserInfo",
+      "id": "User Info",
       "isDefault": false
     },
     {
-      "id": "UserCreate",
+      "id": "User Create",
       "isDefault": false
     },
     {
@@ -29,11 +29,23 @@
       "isDefault": false
     },
     {
-      "id": "PrivateGroves",
+      "id": "Private Groves",
       "isDefault": false
     },
     {
-      "id": "EnterpriseStats",
+      "id": "Enterprise Stats",
+      "isDefault": false
+    },
+    {
+      "id": "New Grove",
+      "isDefault": false
+    },
+    {
+      "id": "Grove Settings",
+      "isDefault": false
+    },
+    {
+      "id": "New Log",
       "isDefault": false
     }
   ],

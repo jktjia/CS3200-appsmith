@@ -63,7 +63,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701798843803,
-    "originalBottomRow": 70,
+    "originalBottomRow": 66,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 64,
     "widgetName": "card_on_file_table",
@@ -290,7 +290,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 37,
+    "originalTopRow": 33,
     "mobileLeftColumn": 29,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
