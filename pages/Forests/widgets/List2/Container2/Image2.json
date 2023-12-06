@@ -17,7 +17,7 @@
         {"key": "borderRadius"}
     ],
     "leftColumn": 0,
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "https://media.istockphoto.com/id/155908976/photo/lemon-orchard.jpg?s=612x612&w=0&k=20&c=c8mu508h4n4aWjw6aMQbfgc4oOhebAK8HOcnCwoiiWY=\n",
     "flexVerticalAlignment": "start",
     "key": "5iah1335ix",
     "image": "{{currentItem.img}}",

@@ -17,7 +17,7 @@
         {"key": "borderRadius"}
     ],
     "leftColumn": 0,
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "https://thumbs.dreamstime.com/b/wood-log-28312735.jpg",
     "flexVerticalAlignment": "start",
     "key": "yl4uw0fibh",
     "image": "{{currentItem.img}}",
