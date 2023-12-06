@@ -31,6 +31,10 @@
     {
       "id": "PrivateGroves",
       "isDefault": false
+    },
+    {
+      "id": "EnterpriseStats",
+      "isDefault": false
     }
   ],
   "viewMode": false,
