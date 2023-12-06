@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button2",
+    "onClick": "{{enterprise_add_user.run().then(() => {\n  closeModal('add_user_modal');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -16,6 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 63,
     "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 47,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

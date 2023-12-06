@@ -28,11 +28,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Grove Home_get_owned_groves",
-              "name": "get_owned_groves",
+              "id": "Grove Home_user_feed",
+              "name": "user_feed",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.user_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

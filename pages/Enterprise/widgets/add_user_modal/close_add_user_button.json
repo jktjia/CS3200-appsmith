@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 22,
-    "widgetName": "Button1",
+    "widgetName": "close_add_user_button",
     "onClick": "{{closeModal('Modal1')}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
@@ -17,6 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 47,
     "animateLoading": true,
+    "dynamicTriggerPathList": [],
     "leftColumn": 31,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
