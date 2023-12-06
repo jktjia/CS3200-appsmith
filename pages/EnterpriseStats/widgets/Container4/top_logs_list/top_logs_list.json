@@ -17,8 +17,7 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "listData"},
-        {"key": "isVisible"}
+        {"key": "listData"}
     ],
     "leftColumn": 0,
     "enhancements": true,
@@ -68,7 +67,7 @@
     "flexVerticalAlignment": "start",
     "itemBackgroundColor": "#FFFFFF",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{top_5_logs.data.length > 0}}",
+    "isVisible": true,
     "tags": [
         "Suggested",
         "Display"
@@ -89,7 +88,7 @@
     "triggeredItemView": "{{{}}}",
     "widgetName": "top_logs_list",
     "listData": "{{top_5_logs.data}}",
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "dynamicPropertyPathList": [],
     "displayName": "List",
     "bottomRow": 51,
     "parentRowSpace": 10,

@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "sv41g4nwde",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 67,
+    "originalBottomRow": 68,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -110,7 +110,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 10,
+    "originalTopRow": 11,
     "mobileLeftColumn": 1,
     "selectedItemView": "{{{}}}"
 }
