@@ -1,6 +1,0 @@
-{{
-{
-	'user_id':user_access_table.selectedRow.user_id,
-	'access':user_access_select.selectedOptionValue
-}
-}}
