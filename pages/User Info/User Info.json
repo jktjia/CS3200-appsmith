@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Forests",
-    "slug": "forests",
+    "name": "User Info",
+    "slug": "user-info",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 540,
+          "bottomRow": 660,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 57,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 590,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,22 +28,36 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Forests_Get_List_of_Forests",
-              "name": "Get_List_of_Forests",
+              "id": "User Info_user_follows",
+              "name": "user_follows",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.user_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "Forests_get_forest",
-              "name": "get_forest",
+              "id": "User Info_user_info",
+              "name": "user_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.forest_id"
+                "appsmith.store.user_id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "User Info_enterprise_name",
+              "name": "enterprise_name",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "user_info.data[0].enterprise_id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -52,7 +65,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Forests",
+        "id": "User Info",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -63,5 +76,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656fa8ab8b15bd2e681386ea_656fa8ab8b15bd2e681386ec"
+  "gitSyncId": "656fa9688b15bd2e681386f7_656faa73bdeb701b268ec71a"
 }
