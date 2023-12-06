@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 38,
-    "bottomRow": 42,
+    "topRow": 32,
+    "bottomRow": 36,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Birthday: {{moment(user_info.data[0].birthday).format('DD MMM YYYY')}}",
+    "text": "Birthday: {{moment(user_info.data[0].birthday).format('MMMM DD, YYYY')}}",
     "key": "d2fv6zgzdo",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 15,
     "responsiveBehavior": "fill",
-    "originalTopRow": 32,
+    "originalTopRow": 38,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 36,
+    "originalBottomRow": 42,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

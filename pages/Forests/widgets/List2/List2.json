@@ -103,7 +103,7 @@
     "rightColumn": 63,
     "widgetId": "0rvtko72wo",
     "minWidth": 450,
-    "onItemClick": "{{storeValue('grove_id', );}}",
+    "onItemClick": "{{storeValue('grove_id', currentItem.id).then(() => {\n  navigateTo('Grove', {}, 'SAME_WINDOW');\n});}}",
     "parentId": "0",
     "renderMode": "CANVAS",
     "mobileTopRow": 1,
