@@ -65,7 +65,7 @@
       "colorStyle": "theme",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
+      "showSignIn": false
     }
   },
   "color": "#FFEBFB",
