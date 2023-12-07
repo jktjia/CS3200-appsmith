@@ -1,5 +1,6 @@
 {{
 {
+	'user_id':appsmith.store.user_id,
 	'content':comment_editor.text
 }
 }}

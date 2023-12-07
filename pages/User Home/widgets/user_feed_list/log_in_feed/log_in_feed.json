@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 12,
-    "widgetName": "Container1",
+    "widgetName": "log_in_feed",
     "borderColor": "#E0DEDE",
     "disallowCopy": true,
     "isCanvas": true,
@@ -17,7 +17,7 @@
     "dragDisabled": true,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
-    "shouldScrollContents": false,
+    "shouldScrollContents": true,
     "isDeletable": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
