@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 21,
     "widgetName": "Button1",
-    "onClick": "{{toggle_like.run().then(() => {\n  get_liked_or_not.run();\n  get_like_count.run();\n});}}",
+    "onClick": "{{like_log.run({\n  \"user_id\": appsmith.store.user_id\n  // \"key\": \"value\",\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -23,10 +23,9 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
-    "text": "{{get_liked_or_not.data[0]}}",
+    "text": "Like",
     "isDisabled": false,
     "key": "mo1t87duaa",
     "isDeprecated": false,
