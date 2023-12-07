@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "new_user_access",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -62,9 +62,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-06T19:10:29Z"
   },
-  "id": "Grove Settings_Api1",
+  "id": "Grove Settings_new_user_access",
   "deleted": false,
   "gitSyncId": "65709d00c571d64d12189ab7_6570c725f79acd28793dc40b"
 }
