@@ -55,6 +55,17 @@
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
+    },
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
     }
   },
   "color": "#FFEBFB",

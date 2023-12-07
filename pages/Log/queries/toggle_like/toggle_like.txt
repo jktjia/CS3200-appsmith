@@ -1,0 +1,6 @@
+{{
+{
+	'user_id':appsmith.store.user_id,
+	'log_id':appsmith.store.log_id
+}
+}}
