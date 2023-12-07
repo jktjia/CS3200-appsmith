@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 12,
     "widgetName": "unfollow_forest_button",
-    "onClick": "{{unfollow_forest.run().then(() => {\n  resetWidget(\"forests\", true);\n});}}",
+    "onClick": "{{unfollow_forest.run().then(() => {\n  all_forests.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

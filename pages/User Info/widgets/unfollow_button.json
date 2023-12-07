@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 66,
     "widgetName": "unfollow_button",
-    "onClick": "{{unfollow_user.run().then(() => {\n  resetWidget(\"following_table\", true);\n});}}",
+    "onClick": "{{unfollow_user.run().then(() => {\n  user_follows.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
