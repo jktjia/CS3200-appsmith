@@ -28,6 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Log_get_comment_count",
               "name": "get_comment_count",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -37,6 +38,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Log_get_like_count",
               "name": "get_like_count",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -57,6 +59,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Log_get_log_info",
               "name": "get_log_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
