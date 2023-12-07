@@ -25,10 +25,6 @@
       "isDefault": false
     },
     {
-      "id": "Log",
-      "isDefault": false
-    },
-    {
       "id": "Private Groves",
       "isDefault": false
     },
@@ -46,6 +42,10 @@
     },
     {
       "id": "New Log",
+      "isDefault": false
+    },
+    {
+      "id": "Log",
       "isDefault": false
     }
   ],

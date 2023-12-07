@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 490,
           "containerStyle": "none",
-          "snapRows": 64,
+          "snapRows": 59,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 660,
+          "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -32,7 +32,9 @@
               "name": "get_comment_count",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.log_id"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -40,7 +42,20 @@
               "name": "get_like_count",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.log_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Log_get_liked_or_not",
+              "name": "get_liked_or_not",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user_id",
+                "appsmith.store.log_id"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -48,7 +63,9 @@
               "name": "get_log_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.log_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
@@ -66,5 +83,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656fad09d81e8b3344b61c8e_656fad76d81e8b3344b61c9d"
+  "gitSyncId": "657110082471606786356d99_657111212471606786356de2"
 }
