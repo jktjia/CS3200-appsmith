@@ -31,7 +31,7 @@
     "mobileBottomRow": 61,
     "widgetName": "follow_new_forest",
     "isFilterable": true,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 65,
@@ -39,9 +39,9 @@
     "hideCard": false,
     "mobileRightColumn": 21,
     "parentColumnSpace": 12,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
-    "sourceData": "{{all_forests.data.map( (obj) =>{ return  {'label': obj.topic, 'value': obj.topic } })}}",
+    "sourceData": "{{all_forests.data.map( (obj) =>{ return  {'label': obj.topic, 'value': obj.id } })}}",
     "key": "e5t9pzjk36",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -58,5 +58,6 @@
     "originalTopRow": 53,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{follow_forest.run().then(() => {\n  resetWidget(\"forests\", true);\n});}}",
     "minDynamicHeight": 4
 }

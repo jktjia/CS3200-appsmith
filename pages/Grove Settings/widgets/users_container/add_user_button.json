@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 37,
-    "widgetName": "Button1",
+    "widgetName": "add_user_button",
     "onClick": "{{showModal('new_user_access_modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
