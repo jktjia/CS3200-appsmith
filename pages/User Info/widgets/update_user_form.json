@@ -282,7 +282,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "schema.__root_schema__.children.birthday.defaultValue"}],
+    "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
     "bottomRow": 51,
     "fieldLimitExceeded": false,

@@ -1,0 +1,5 @@
+{{
+{
+	'user_id':following_table.selectedRow.id
+}
+}}

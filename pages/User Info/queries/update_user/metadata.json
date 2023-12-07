@@ -31,7 +31,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{update_user_form.formData}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -48,13 +48,17 @@
     "dynamicBindingPathList": [
       {
         "key": "path"
+      },
+      {
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.user_id"
+      "appsmith.store.user_id",
+      "update_user_form.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
