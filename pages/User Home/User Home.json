@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Grove Home",
-    "slug": "grove-home",
+    "name": "User Home",
+    "slug": "user-home",
     "layouts": [
       {
         "viewMode": false,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Grove Home_get_owned_groves",
-              "name": "get_owned_groves",
+              "id": "User Home_get_user_feed",
+              "name": "get_user_feed",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -41,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Grove Home",
+        "id": "User Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
