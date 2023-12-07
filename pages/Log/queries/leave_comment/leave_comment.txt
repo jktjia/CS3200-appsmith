@@ -1,0 +1,6 @@
+{{
+{
+	'user_id':appsmith.store.user_id,
+	'content':Input1.text
+}
+}}

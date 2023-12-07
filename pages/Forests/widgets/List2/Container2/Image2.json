@@ -17,7 +17,7 @@
         {"key": "borderRadius"}
     ],
     "leftColumn": 0,
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Zawilec_gajowy_cm02.jpg",
     "flexVerticalAlignment": "start",
     "key": "5iah1335ix",
     "image": "{{currentItem.img}}",

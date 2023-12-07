@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{closeModal('credit_card_modal');\ncreate_enterprise.run().then(() => {\n  add_credit_card.run({\n    'data': enter_credit_card_form.formData\n  });\n  enterprise_add_current_user.run();\n});}}",
+    "onSubmit": "{{closeModal('credit_card_modal');\ncreate_enterprise.run().then(() => {\n  add_credit_card.run({\n    'data': enter_credit_card_form.formData\n  });\n  enterprise_add_current_user.run();\n  navigateTo('Enterprise', {}, 'SAME_WINDOW');\n});}}",
     "topRow": 4,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

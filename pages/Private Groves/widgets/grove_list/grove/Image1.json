@@ -17,7 +17,7 @@
         {"key": "borderRadius"}
     ],
     "leftColumn": 0,
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "https://media.istockphoto.com/id/537317925/photo/willow-log-isolated.jpg?s=612x612&w=0&k=20&c=9rLi7wqd-0AdLETxdg8OFUlbhI5ZhwFx66UxvxVwBBU=",
     "flexVerticalAlignment": "start",
     "key": "bp329nf73f",
     "image": "{{currentItem.img}}",

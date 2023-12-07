@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 4,
-    "widgetName": "IconButton1",
+    "widgetName": "close_modal",
     "onClick": "{{closeModal('new_user_access_modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 510,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -32,7 +32,9 @@
               "name": "get_comment_count",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.log_id"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -40,7 +42,20 @@
               "name": "get_like_count",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.log_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Log_get_liked_or_not",
+              "name": "get_liked_or_not",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user_id",
+                "appsmith.store.log_id"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -48,7 +63,9 @@
               "name": "get_log_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.log_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

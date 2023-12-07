@@ -32,7 +32,7 @@
     "widgetId": "00ttaqrt2l",
     "menuItems": {
         "menuItem1": {
-            "onClick": "{{delete_credit_card.run()}}",
+            "onClick": "{{delete_credit_card.run().then(() => {\n  credit_cards.run();\n});}}",
             "widgetId": "",
             "index": 0,
             "label": "Credit Card",
@@ -41,7 +41,7 @@
             "isDisabled": false
         },
         "menuItem2": {
-            "onClick": "{{delete_user.run()}}",
+            "onClick": "{{delete_user.run().then(() => {\n  enterprise_users.run();\n});}}",
             "widgetId": "",
             "index": 1,
             "label": "User",
